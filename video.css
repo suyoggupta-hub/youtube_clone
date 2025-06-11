@@ -1,0 +1,82 @@
+                                    .thumbnail{
+                                        width: 100%;
+                                    }
+                                
+                                    .video-title{
+
+                                        margin-top: 0;
+                                        font-size: 14px;
+                                        font-weight: 500;
+                                        margin-bottom: 12px;
+                                        line-height: 20px;
+                                    }
+                                    .video-author{
+                                        font-size: 12px;
+                                        color: gray;
+                                        margin-bottom: 6px;
+                                    }
+                                    .video-stats{
+                                        font-size: 12px;
+                                        color: gray;
+                                    }
+                                    .thumbnail-row{
+                                        margin-bottom: 12px;
+                                        position: relative;
+                                    } 
+                                    .thumbnail-row:hover{
+                                        background-color: rgba(128, 128, 128, 0.811);
+                                    }
+                                    .profilePic{
+                                        width:40px;
+                                        margin-top: 10px;
+                                        border-radius: 50px;
+                                    }
+                                    .thumbnail-row{
+                                        margin-bottom: 5px;
+                                    }
+                                    .grid{
+                                        display: grid;
+                                        grid-template-columns:1fr 1fr 1fr;
+                                        column-gap: 16px;
+                                        row-gap: 40px;
+                                    }
+                                    @media(max-width: 750px){
+                                        .grid{
+                                            grid-template-columns:1fr 1fr;
+                                        }
+                                    }
+                                    @media(min-width: 751px)and (max-width:999px){
+                                        .grid{
+                                            grid-template-columns: 1fr 1fr 1fr;
+                                        }
+                                    }
+                                    @media(min-width: 1000px){
+                                        .grid{
+                                            grid-template-columns: 1fr 1fr 1fr 1fr;
+                                        }
+                                    }
+                                    .video-info-grid{
+                                        display: grid;
+                                        grid-template-columns: 50px 1fr;
+                                    }
+                                    .time{
+                                        background-color: rgba(37, 37, 37, 0.701);
+                                        color: white;
+                                        position: absolute;
+                                        bottom: 10px;
+                                        right: 5px;
+                                        font-size: 12px;
+                                        font-weight: bold;
+                                        padding-left: 4px;
+                                        padding-top: 4px;
+                                        padding-bottom: 4px;
+                                        padding-right: 4px;
+                                        border-radius: 5px;
+                                    }
+                                    .video-preview:hover{
+                                        background-color: rgba(0, 0, 0, 0.184);
+                                    }
+                                    .thumbnail-row:active{
+                                        background-color: rgba(0, 0, 0, 0.702);
+                                    }
+                                

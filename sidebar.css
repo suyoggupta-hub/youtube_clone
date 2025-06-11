@@ -1,0 +1,58 @@
+.sidebar{
+    position: fixed;
+    top: 55px;
+    bottom: 0px;
+    left: 0px;
+    background-color:white;
+    margin-left: 0px;
+    width: 90px;
+    border-right-width: 2px;
+    border-right-color: rgba(231, 220, 220, 0.351);
+    border-right-style: solid;
+
+    border-top-width: 2px;
+    border-top-color: gray;
+   
+}
+
+
+.homeIcon{
+    width: 70px;
+    margin-left: 5px;
+    margin-bottom: -10px;
+    cursor: pointer;
+
+}
+.shorts{
+    width: 40px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.subscriptions{
+    width: 30px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.you{
+    width: 30px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+
+.sidebar_link{
+    font-size: 15px;
+    margin-left: -8px;
+    margin-bottom: 20px;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
