@@ -1,92 +1,186 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Youtube.com clone</title>
-        <style>
-            .thumbnail{
-                width: 300px;
-                display: block;
-            }
-            .searchBox{
-                display: block;
-                cursor: pointer
-            }
-            .video-title{
-                width: 270px;
-            }
-            .video-author{
-                display: block;
-            }
-            .video-stats{
-                display: block;
-            }
-            .divClass{
-                width: 300px;
-                display: inline-block;
-                cursor: pointer;
-                vertical-align: top;
-                margin-right: 10px;
-                margin-bottom: 10px;
-               
-            }
-            .channel-pic{
-                display: inline-block;
-            }
-            .video-info{
-                display: inline-block;
-            }
-        </style>
-    </head>
-    <body>
-        <input class="searchBox" type="text" placeholder="Search">
-        
-    <div class="divClass">
-        <div> <img class="thumbnail" src="thumbnails/hq720_custom_2.avif">
-        </div>
-        <div>
-            <div class="channel-pic"> 
-                    <img src="thumbnails/hq720_custom_2.avif">
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Youtube.com clone</title>
+            
+            <link rel="stylesheet" href="stylesheet/general.css">
+            <link rel="stylesheet" href="stylesheet/header.css">
+            <link rel="stylesheet" href="stylesheet/video.css">
+            <link rel="stylesheet" href="stylesheet/sidebar.css">
+            
+            
+        </head>
+        <body>
+            <div class="header">
+                <div class="left"><img class="hamburger_menu" src="thumbnails/What is a Hamburger Button.png">
+                <img class="Youtube_logo" src="thumbnails/Youtube-Logo.png"></div>
+                <div class="middle">
+                      <input class="searchBox" type="text" placeholder="Search">
+                      <button class="searchButton"><img  class="img1" src="thumbnails/search.png"></button>
+                      <button class="voiceSearch"><img class="img2" src="thumbnails/voice-removebg-preview.png"></button>
+                </div>
+                <div class="right">
+                    <img class="create" src="thumbnails/create.png">
+                    <div class="icon"><img class="notification" src="thumbnails/notification.png">
+                    <div class="count">4</div>
+                 </div>
+                    
+                    <img class="profile" src="thumbnails/profile.jpg">
+                
+                </div>
             </div>
-            <div class="video-info">
-                <p class="video-title">
-                <strong>Interviews in 3 hours/GSoC 2026/ How to crack it in 2026/complete...</strong> 
-                </p>
-                <p class="video-author">
-                Harkirat Singh
-                </p>
-                <p class="video-stats">
-                27k views &#183; 19 hours ago
-                </p>
-            </div>
+            <div class="sidebar"><img class="homeIcon" src="thumbnails/home.png"><div class="sidebar_link">Home</div>
+            <img class="shorts" src="thumbnails/shorts.png"><div class="sidebar_link">Shorts</div>
+            <img class="subscriptions" src="thumbnails/subscriptions.png"><div class="sidebar_link">Subscriptions</div>
+            <img class="you" src="thumbnails/you.png"><div class="sidebar_link">You</div>
         </div>
-    </div>
-         
-        <div class="divClass">
-            <img class="thumbnail" src="thumbnails/hq720.avif">
-        
-        <p class="video-title">
-           <strong> Talking tech and ai with google ceo sundar Pichai</strong>
-        </p>
-        <p class="video-author">
-            Marques Browniee
-        </p>
-        <p class="video-stats">
-            3.4M views &#183; 6 months
-        </p>
-        </div>
+            
+                <div class="grid">
+                    <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/hq720_custom_2.avif">
+                            <div class="time">14:20</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-pic"> 
+                                <img class="profilePic" src="thumbnails/channels4_profile 2.jpg">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    Interviews in 3 hours/GSoC 2026/ How to crack it in 2026/complete...
+                                </p>
+                                <p class="video-author">
+                                    Harkirat Singh
+                                </p>
+                                <p class="video-stats">
+                                    27k views &#183; 19 hours ago
+                                </p>
+                            </div>
+                            </div>
+                    </div>
+                    
+                    
+                        <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/hq720.avif">
+                        <div class="time">32:20
+                        </div> </div>
+                        <div class="video-info-grid">
+                            <div class="channel-pic">
+                                <img  class=" profilePic" src="thumbnails/channels4_profile.jpg"></div>
+                            <div class="video-info">
+                                <p class="video-title">
+                    Talking tech and ai with google ceo sundar Pichai
+                    </p>
+                    <p class="video-author">
+                        Marques Browniee
+                    </p>
+                    <p class="video-stats">
+                        3.4M views &#183; 6 months
+                    </p>
 
-        <div class="divClass">
-            <img class="thumbnail" src="thumbnails/hq720_custom_2.avif">
-        
-        <p class="video-title">
-            <strong>Interviews in 3 hours/GSoC 2026/ How to crack it in 2026/complete...</strong> 
-        </p>
-        <p class="video-author">
-            Harkirat Singh
-        </p>
-        <p class="video-stats">
-            27k views &#183; 19 hours ago
-        </p>
-        </div>
-    </body>
-</html>
+                
+                    </div>
+                        </div>
+            </div>
+            
+                    <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/custom3.avif">
+                            <div class="time">10:33</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-pic"> 
+                                <img class="profilePic" src="thumbnails/channels4_profile 2.jpg">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    What Are MCP Servers?(And How I built an AI Trading Bot on It)
+                                </p>
+                                <p class="video-author">
+                                    Harkirat Singh
+                                </p>
+                                <p class="video-stats">
+                                    209k views &#183; 1month ago
+                                </p>
+                            </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/custom4.avif">
+                        <div class="time">1:00:00</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-pic">
+                                <img  class=" profilePic" src="thumbnails/channels4_profile 3.jpg"></div>
+                            <div class="video-info">
+                                <p class="video-title">
+                    OPWN OYUR EYES AND SEE THE REAlity *IMPORTANT*
+                    </p>
+                    <p class="video-author">
+                        Neeraj Walia
+                    </p>
+                    <p class="video-stats">
+                        1.3M views &#183;1 year ago
+                    </p>
+
+                
+                    </div>
+                
+                        </div>
+            </div>
+            
+                    <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/custom5.avif">
+                            <div class="time">24:12:00</div>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="channel-pic"> 
+                                <img class="profilePic" src="thumbnails/channels4_profile 4.jpg">
+                            </div>
+                            <div class="video-info">
+                                <p class="video-title">
+                                    JavaScript Tutorial Full Course-Beginner to Pro
+                                </p>
+                                <p class="video-author">
+                                    SuperSimpleDev
+                                </p>
+                                <p class="video-stats">
+                                    5.1M views &#183; 1 year ago
+                                </p>
+                            </div>
+                            </div>
+                        </div>
+                
+                    
+            
+                        <div class="video-preview">
+                        <div class="thumbnail-row">
+                            <img class="thumbnail" src="thumbnails/custom6.avif">
+                        <div class="time">10:20</div>
+                    </div>
+                        <div class="video-info-grid">
+                            <div class="channel-pic">
+                                <img  class=" profilePic" src="thumbnails/channels4_profile 5.jpg"></div>
+                            <div class="video-info">
+                                <p class="video-title">
+                    Learn Blockchain,Solidity, and Full Stack Web3 Development with...
+                    </p>
+                    <p class="video-author">
+                        freeCodeCamp.org
+                    </p>
+                    <p class="video-stats">
+                        3.2M views &#183; 3 year ago
+                    </p>
+
+                
+                    </div>
+                    </div>
+                    </div>
+            </div>
+            </body>
+        </html>
